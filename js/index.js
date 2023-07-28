@@ -52,7 +52,7 @@ const triggerFlipOnScroll = (galleryEl, options) => {
 	
 	// Temporarily add the final class to capture the final state
 	galleryEl.classList.add('gallery--switch');
-	const flipstate = Flip.getState([galleryItems, galleryCaption], {props: 'filter, opacity'});
+	const flipstate = Flip.getState([galleryItems, galleryCaption], {props: 'opacity'});
 
 	// Remove the final class to revert to the initial state
 	galleryEl.classList.remove('gallery--switch');
