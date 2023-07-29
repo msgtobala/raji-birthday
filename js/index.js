@@ -103,6 +103,7 @@ const scroll = () => {
         { id: '#gallery-6' },
         { id: '#gallery-7' },
         { id: '#gallery-8', options: { flip: { scale: false } } },
+        // { id: '#gallery-11' },
         { id: '#gallery-9' },
     ];
 
